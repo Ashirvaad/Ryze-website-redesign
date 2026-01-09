@@ -1,73 +1,119 @@
-# React + TypeScript + Vite
+# Ryze.ai – Website Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a redesign of the **Get-Ryze.ai** website, created as part of an internship assignment. The goal was to improve visual clarity, user experience, and structure while keeping the design modern, clean, and professional for an AI-driven performance marketing product.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+Ryze is positioned as an **AI performance marketer** that audits, optimizes, and scales paid advertising campaigns automatically.  
+The redesign focuses on clearly communicating this value proposition while following real-world SaaS design and frontend practices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 Objectives
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Improve overall visual appeal and readability  
+- Clearly explain what Ryze does and how it helps users  
+- Create a modular, reusable component structure  
+- Ensure smooth navigation and responsive behavior  
+- Follow modern SaaS UX patterns  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🧩 Pages Implemented
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Home (`/`)** – Product overview, features, social proof, and CTA  
+- **Features (`/features`)** – Detailed feature breakdown using card-based layout  
+- **Pricing (`/pricing`)** – Clear pricing tiers with CTA and FAQ section  
+- **Case Studies (`/case-studies`)** – Example use cases and results  
+- **FAQ (`/faq`)** – Common questions about the product  
+- **Responsive Navigation** – Desktop header + mobile sidebar navigation  
+
+---
+
+## 🏗️ Design & Structure Decisions
+
+- The UI follows a **clean SaaS layout** with consistent spacing, typography, and subtle accents to reflect AI and performance marketing.
+- The homepage is structured as a clear flow:  
+  **Value Proposition → Trust → Features → Social Proof → Call-to-Action**
+- Reusable UI elements are separated into components, while route-level pages are kept in a dedicated `pages` folder.
+- React Router is used for client-side navigation, with scroll-to-top handling to ensure proper UX on route changes.
+- Basic accessibility considerations (focus states, readable contrast, semantic structure) and responsive design were included.
+
+---
+
+## 📁 Project Structure
+
+src/
+
+├── assets/
+
+├── components/
+
+├── pages/
+
+├── App.tsx
+
+├── main.tsx
+
+└── index.css
+
+
+---
+
+## 🧠 Key Features Implemented
+
+- Modular React components
+- Responsive sidebar navigation
+- Scroll restoration on route change
+- Clean and scalable folder structure
+
+---
+
+## 🛠️ Tech Stack
+
+- **React + TypeScript**
+- **Vite**
+- **React Router**
+- **CSS (component-scoped styles)**
+
+---
+
+## ▶️ Getting Started
+```bash
+### 1. Clone the repository
+git clone <repository-url>
+
+
+### 2. Install dependencies
+npm install
+
+### 3. Run the project locally
+npm run dev
 ```
+The app will be available at:
+http://localhost:5173
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🌐 Live Demo
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+### 👉 Live URL: https://ryze-website-redesign-nine.vercel.app/
+
+
+## 📌 Notes
+
+This project focuses on frontend design and structure; backend functionality is not implemented.
+
+Images and content are used for demonstration purposes only.
+
+The codebase is structured to allow easy future expansion.
+
+## 🙌 Conclusion
+
+This redesign demonstrates an understanding of frontend fundamentals, component-based architecture, and SaaS UX principles, while keeping the implementation clean and scalable. The goal was to deliver a realistic, production-style landing experience suitable for an AI marketing product.
+
+
+
+        
