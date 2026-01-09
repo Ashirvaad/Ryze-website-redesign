@@ -45,7 +45,6 @@
   border: none;
 }
 
-/* SIDEBAR */
 .sidebar {
   position: fixed;
   top: 0;
@@ -83,7 +82,6 @@
   margin-top: auto;
 }
 
-/* OVERLAY */
 .overlay {
   position: fixed;
   inset: 0;
@@ -91,7 +89,6 @@
   z-index: 1000;
 }
 
-/* MOBILE */
 @media (max-width: 900px) {
   .desktop-nav {
     display: none;
@@ -100,3 +97,4 @@
     display: block;
   }
 }
+
