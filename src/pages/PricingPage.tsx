@@ -7,7 +7,6 @@ export default function PricingPage() {
     <section className="page">
       <Header />
 
-      {/* HERO */}
       <section className="pricing-hero">
         <h1>Simple, Transparent Pricing</h1>
         <p>
@@ -16,11 +15,9 @@ export default function PricingPage() {
         </p>
       </section>
 
-      {/* PRICING CARDS */}
       <section className="pricing-section">
         <div className="pricing-grid">
 
-          {/* STARTER */}
           <div className="pricing-card">
             <h3>Starter</h3>
             <p className="price">Free</p>
@@ -35,7 +32,6 @@ export default function PricingPage() {
             <button className="outline-btn">Get Started</button>
           </div>
 
-          {/* GROWTH */}
           <div className="pricing-card featured">
             <span className="badge">Most Popular</span>
             <h3>Growth</h3>
@@ -53,7 +49,6 @@ export default function PricingPage() {
             <button className="primary-btn">Book a Demo</button>
           </div>
 
-          {/* ENTERPRISE */}
           <div className="pricing-card">
             <h3>Enterprise</h3>
             <p className="price">Custom</p>
@@ -72,7 +67,6 @@ export default function PricingPage() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="pricing-cta">
         <h2>Not sure which plan is right?</h2>
         <p>Let our AI audit your account and suggest the best setup.</p>
@@ -83,3 +77,4 @@ export default function PricingPage() {
     </section>
   );
 }
+
