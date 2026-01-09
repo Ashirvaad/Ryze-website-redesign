@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-grid">
-        {/* BRAND */}
+
         <div className="footer-brand">
           <h3>RYZE</h3>
           <p>
@@ -14,7 +14,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* PRODUCT */}
         <div className="footer-col">
           <h4>Product</h4>
           <NavLink to="/pricing">Pricing</NavLink>
@@ -23,7 +22,6 @@ export default function Footer() {
           <a href="#">Case Studies</a>
         </div>
 
-        {/* COMPANY */}
         <div className="footer-col">
           <h4>Company</h4>
           <a href="#">About</a>
@@ -32,7 +30,6 @@ export default function Footer() {
           <a href="#">Contact</a>
         </div>
 
-        {/* LEGAL */}
         <div className="footer-col">
           <h4>Legal</h4>
           <a href="#">Privacy Policy</a>
@@ -50,3 +47,4 @@ export default function Footer() {
     </footer>
   );
 }
+
