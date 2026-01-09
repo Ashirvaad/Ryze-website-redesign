@@ -11,7 +11,6 @@
   overflow: hidden;
 }
 
-/* SUBTLE AI GLOW */
 .cta::before {
   content: "";
   position: absolute;
@@ -24,7 +23,6 @@
   opacity: 0.6;
 }
 
-/* CONTENT ABOVE BG */
 .cta-content {
   position: relative;
   max-width: 720px;
@@ -42,7 +40,6 @@
   color: #d1d5db;
 }
 
-/* CTA ACTIONS */
 .cta-actions {
   margin-top: 36px;
   display: flex;
@@ -70,7 +67,6 @@
   color: #9ca3af;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
   .cta {
     padding: 100px 24px;
@@ -80,3 +76,4 @@
     font-size: 32px;
   }
 }
+
