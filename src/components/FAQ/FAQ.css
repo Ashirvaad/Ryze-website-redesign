@@ -15,7 +15,6 @@
   gap: 24px;
 }
 
-/* FAQ ITEM */
 .faq-item {
   background: #ffffff;
   padding: 28px 32px;
@@ -40,7 +39,6 @@
   line-height: 1.6;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
   .faq {
     padding: 100px 24px;
@@ -55,3 +53,4 @@
     padding: 24px;
   }
 }
+
