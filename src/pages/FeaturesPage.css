@@ -1,4 +1,3 @@
-/* HERO */
 .features-hero {
   padding: 160px 60px 100px;
   text-align: center;
@@ -20,7 +19,6 @@
   margin-right: auto;
 }
 
-/* GRID SECTION */
 .features-grid-section {
   padding: 100px 60px;
   background: #fafafa;
@@ -34,7 +32,6 @@
   gap: 32px;
 }
 
-/* FEATURE CARD */
 .feature-card {
   background: #ffffff;
   padding: 36px;
@@ -59,7 +56,6 @@
   line-height: 1.6;
 }
 
-/* POINTS */
 .feature-card ul {
   margin-top: 20px;
   list-style: none;
@@ -82,7 +78,6 @@
   font-weight: 700;
 }
 
-/* CTA */
 .features-cta {
   padding: 120px 60px;
   text-align: center;
@@ -105,7 +100,6 @@
   margin-top: 28px;
 }
 
-/* MOBILE */
 @media (max-width: 900px) {
   .features-hero {
     padding: 120px 24px 80px;
