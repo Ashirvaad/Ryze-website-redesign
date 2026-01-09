@@ -1,0 +1,133 @@
+/* HERO */
+.features-hero {
+  padding: 160px 60px 100px;
+  text-align: center;
+  max-width: 960px;
+  margin: auto;
+}
+
+.features-hero h1 {
+  font-size: 48px;
+  line-height: 1.15;
+}
+
+.features-hero p {
+  margin-top: 18px;
+  color: #555;
+  font-size: 17px;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* GRID SECTION */
+.features-grid-section {
+  padding: 100px 60px;
+  background: #fafafa;
+}
+
+.features-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+/* FEATURE CARD */
+.feature-card {
+  background: #ffffff;
+  padding: 36px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.12);
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature-desc {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* POINTS */
+.feature-card ul {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.feature-card li {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+  padding-left: 22px;
+  position: relative;
+}
+
+.feature-card li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #ff4d00;
+  font-weight: 700;
+}
+
+/* CTA */
+.features-cta {
+  padding: 120px 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #ffffff;
+  position: relative;
+}
+
+.features-cta h2 {
+  font-size: 36px;
+}
+
+.features-cta p {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #d1d5db;
+}
+
+.features-cta button {
+  margin-top: 28px;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .features-hero {
+    padding: 120px 24px 80px;
+  }
+
+  .features-hero h1 {
+    font-size: 34px;
+  }
+
+  .features-grid-section {
+    padding: 80px 24px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features-cta {
+    padding: 100px 24px;
+  }
+
+  .features-cta h2 {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,143 @@
+/* HERO */
+.pricing-hero {
+  padding: 120px 60px 80px;
+  text-align: center;
+}
+
+.pricing-hero h1 {
+  font-size: 44px;
+}
+
+.pricing-hero p {
+  margin-top: 14px;
+  color: #666;
+  font-size: 16px;
+}
+
+/* PRICING GRID */
+.pricing-section {
+  padding: 80px 60px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+/* CARD */
+.pricing-card {
+  position: relative;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 40px 32px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+.pricing-card h3 {
+  font-size: 20px;
+}
+
+.price {
+  margin-top: 14px;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.price span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+}
+
+.price-sub {
+  margin-top: 6px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* FEATURES */
+.pricing-card ul {
+  list-style: none;
+  margin: 28px 0;
+  padding: 0;
+}
+
+.pricing-card li {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* BUTTONS */
+.outline-btn {
+  background: transparent;
+  border: 1px solid #ddd;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* FEATURED PLAN */
+.pricing-card.featured {
+  border: 2px solid #ff4d00;
+  transform: scale(1.05);
+}
+
+.badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ff4d00;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 14px;
+}
+
+/* CTA */
+.pricing-cta {
+  margin-top: 80px;
+  padding: 100px 60px;
+  text-align: center;
+  background: #fafafa;
+}
+
+.pricing-cta h2 {
+  font-size: 32px;
+}
+
+.pricing-cta p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.pricing-cta button {
+  margin-top: 24px;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-card.featured {
+    transform: none;
+  }
+
+  .pricing-hero {
+    padding: 100px 24px 60px;
+  }
+
+  .pricing-section {
+    padding: 60px 24px;
+  }
+
+  .pricing-cta {
+    padding: 80px 24px;
+  }
+}

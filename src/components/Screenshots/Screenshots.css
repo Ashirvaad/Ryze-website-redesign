@@ -1,0 +1,49 @@
+.screenshots {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.subtext {
+  color: #666;
+  margin-top: 8px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 32px 0;
+}
+
+.tab {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background: transparent;
+}
+
+.tab.active {
+  background: #ff4d00;
+  color: white;
+  border-color: #ff4d00;
+}
+
+.preview-box {
+  height: 360px;
+  background: #f4f4f4;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+}
+
+.dashboard-img {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto 0;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+

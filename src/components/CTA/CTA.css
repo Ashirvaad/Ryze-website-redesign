@@ -1,0 +1,82 @@
+.cta {
+  padding: 120px 60px;
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #020617
+  );
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* SUBTLE AI GLOW */
+.cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 30%,
+    rgba(255, 77, 0, 0.35),
+    transparent 60%
+  );
+  opacity: 0.6;
+}
+
+/* CONTENT ABOVE BG */
+.cta-content {
+  position: relative;
+  max-width: 720px;
+  margin: auto;
+}
+
+.cta h2 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.cta p {
+  margin-top: 18px;
+  font-size: 16px;
+  color: #d1d5db;
+}
+
+/* CTA ACTIONS */
+.cta-actions {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.primary-btn {
+  background: #ff4d00;
+  color: #fff;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+}
+
+.primary-btn:hover {
+  background: #ff6a1a;
+}
+
+.cta-note {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .cta {
+    padding: 100px 24px;
+  }
+
+  .cta h2 {
+    font-size: 32px;
+  }
+}
