@@ -28,7 +28,6 @@ export default function Header() {
         </button>
       </header>
 
-      {/* SIDEBAR */}
       <div className={`sidebar ${open ? "open" : ""}`}>
         <button
           className="close-btn"
@@ -53,3 +52,4 @@ export default function Header() {
     </>
   );
 }
+
