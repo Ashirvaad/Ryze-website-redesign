@@ -70,7 +70,6 @@ export default function FeaturesPage() {
     <section className="page">
       <Header />
 
-      {/* HERO */}
       <section className="features-hero">
         <h1>Powerful AI Features Built for Performance Marketing</h1>
         <p>
@@ -78,7 +77,6 @@ export default function FeaturesPage() {
         </p>
       </section>
 
-      {/* FEATURES GRID */}
       <section className="features-grid-section">
         <div className="features-grid">
           {features.map((feature) => (
@@ -96,7 +94,6 @@ export default function FeaturesPage() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="features-cta">
         <h2>See Ryze in Action</h2>
         <p>Let AI show you where your ads can perform better.</p>
@@ -107,3 +104,4 @@ export default function FeaturesPage() {
     </section>
   );
 }
+
